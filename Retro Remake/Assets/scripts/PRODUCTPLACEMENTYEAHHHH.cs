@@ -5,7 +5,8 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class PRODUCTPLACEMENTYEAHHHH : MonoBehaviour
 {
-    public Score energy;
+    public energy energy;
+    public uint energyReset = 9999;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,8 @@ public class PRODUCTPLACEMENTYEAHHHH : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        Debug.Log("kill me");
+        energy.energyCount = energyReset;
+        Debug.Log("shlurp");
+        Destroy(gameObject);
     }
 }
