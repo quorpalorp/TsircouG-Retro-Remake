@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/you died lol.unity
     guid: 04c0acc878aaf5f4e9fe4933101326e8
+  - enabled: 1
+    path: Assets/Scenes/Fazbear Frights - Into The Pit.unity
+    guid: e212fdb3a41118a4b9f32abb1345438b
   m_configObjects: {}
