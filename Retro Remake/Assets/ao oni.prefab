@@ -127,6 +127,7 @@ MonoBehaviour:
   up: 119
   down: 115
   speed: 10
+  hasNoMass: 0
 --- !u!114 &8146819500710794782
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 68687976}
   - component: {fileID: 68687975}
   - component: {fileID: 68687977}
+  - component: {fileID: 68687978}
   m_Layer: 0
   m_Name: tri force
   m_TagString: Untagged
@@ -234,6 +235,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.12, y: 5.12}
   m_EdgeRadius: 0
+--- !u!114 &68687978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68687974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7464331bcdc950d4d93145dfce1fe8c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energy: {fileID: 0}
+  objective: {fileID: 0}
+  hpReset: 9999
+  hpChange: 1000
+  isGoal: 1
+  isReset: 0
 --- !u!1 &393283459
 GameObject:
   m_ObjectHideFlags: 0
