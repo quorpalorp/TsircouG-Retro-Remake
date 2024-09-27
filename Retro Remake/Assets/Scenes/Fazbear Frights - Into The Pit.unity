@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   energy: {fileID: 0}
-  objective: {fileID: 0}
+  objective: {fileID: 583043218}
   hpReset: 9999
   hpChange: 1000
   isGoal: 1
@@ -371,6 +371,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &583043217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8146819500710794778, guid: 4cd007aeac2a5a341b8a7bc067e00a34, type: 3}
+  m_PrefabInstance: {fileID: 1126762287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &583043218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583043217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce4ed8c93bed7a4a9520b93cef57ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveCount: 0
 --- !u!1 &701220170
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,23 +681,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cd007aeac2a5a341b8a7bc067e00a34, type: 3}
---- !u!1 &1511716965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8146819500710794778, guid: 4cd007aeac2a5a341b8a7bc067e00a34, type: 3}
-  m_PrefabInstance: {fileID: 1126762287}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1511716974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511716965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b1088b311c19fc40b8d7e78e914625c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2105121523
 GameObject:
   m_ObjectHideFlags: 0
