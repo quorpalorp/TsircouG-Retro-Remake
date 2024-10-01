@@ -8,11 +8,12 @@ public class energy : MonoBehaviour
 {
     public float energyCount = 9999;
     public TMPro.TMP_Text energyText;
+    public float energyDrain = 1;
 
     // Update is called once per frame
     void Update()
     {
-        energyCount -= Time.deltaTime;
+        energyCount -= Time.deltaTime * energyDrain;
         energyText.SetText("ENERGY: " + energyCount.ToString());
     }
 }
