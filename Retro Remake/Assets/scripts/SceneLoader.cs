@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public energy energy;
     public void LoadScreen(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -15,5 +16,12 @@ public class SceneLoader : MonoBehaviour
     {
         Debug.Log("APPLICATION HUNG. REASON: WITCHCRAFT");
         Application.Quit();
+    }
+
+    public void ResetScene(string sceneName)
+    {
+        energy.energyCount = 30;
+        SceneManager.LoadScene(sceneName);
+        print("MAIN MAP RELOADED");
     }
 }

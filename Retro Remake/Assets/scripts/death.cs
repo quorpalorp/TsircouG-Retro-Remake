@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class death : MonoBehaviour
 {
-    public energy energy;
+    public static energy energy;
     public float deathThreshold = 0;
     // Start is called before the first frame update
     void Start()
