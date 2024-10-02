@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fazbear Frights - Into The Pit.unity
     guid: e212fdb3a41118a4b9f32abb1345438b
+  - enabled: 1
+    path: Assets/Scenes/you did it yay.unity
+    guid: 8365df67719a1f543b3286efc191d6df
   m_configObjects: {}
