@@ -35,12 +35,12 @@ public class PhysMovement : MonoBehaviour
         // sets the velocity to zero every frame if true
         if (hasNoMass == true)
         {
-           _rb2d.velocity = Vector2.zero;
+           _rb2d.linearVelocity = Vector2.zero;
         }
         
         if (Input.GetKey(left))
         {
-           _rb2d.velocity = Vector2.left * speed;
+           _rb2d.linearVelocity = Vector2.left * speed;
            lWalk = true;
         }
         else
@@ -50,7 +50,7 @@ public class PhysMovement : MonoBehaviour
 
         if (Input.GetKey(right))
         {
-            _rb2d.velocity = Vector2.right * speed;
+            _rb2d.linearVelocity = Vector2.right * speed;
            rWalk = true;
         }
         else
@@ -60,7 +60,7 @@ public class PhysMovement : MonoBehaviour
 
         if (Input.GetKey(up))
         {
-            _rb2d.velocity = Vector2.up * speed;
+            _rb2d.linearVelocity = Vector2.up * speed;
             uWalk = true;
         }
         else
@@ -70,7 +70,7 @@ public class PhysMovement : MonoBehaviour
 
         if (Input.GetKey(down))
         {
-            _rb2d.velocity = Vector2.down * speed;
+            _rb2d.linearVelocity = Vector2.down * speed;
             fWalk = true;
         }
         else
